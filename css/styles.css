@@ -19,6 +19,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: inherit;
 
 }
 
@@ -29,33 +30,10 @@ body {
 .button:hover, .button:focus {
     background-color: #404BBF;
 
-/*-HEADER-*/
+.navigation-list {
 
-.logotype {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
 }
 
-.header-studio {
-  color: #2e2f42;
-}
-
-.footer-studio {
-  color: #f4f4fd;
-}
-
-.navigation_list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--dark-color), #2e2f42;
-}
 
 .contacts {
  
@@ -167,17 +145,38 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-/*font-weight: 500;
+
+/* Portfolio */
+
+.projects {
+}
+.filters-list {
+}
+
+.filters-item {
+}
+.portfolio-btn {
+font-weight: 500;
 font-size: 16px;
-line-height: 24px;
-identical to box height, or 150% 
-
-display: flex;
-align-items: center;
-text-align: center;
+line-height: 1.5;
 letter-spacing: 0.04em;
-
-
-
 color: #FFFFFF;
-*/
+}
+
+.projects-list {
+
+}
+
+.projects-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.portfolio-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
