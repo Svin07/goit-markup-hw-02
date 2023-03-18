@@ -168,6 +168,7 @@ button:focus {
 }
 .portfolio-btn {
   background-color: #f4f4fd;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
