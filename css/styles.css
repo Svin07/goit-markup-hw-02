@@ -79,6 +79,7 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 .advantages {
 }
@@ -172,6 +173,7 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  cursor: pointer;
 }
 
 .projects-list {
