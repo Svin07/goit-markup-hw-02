@@ -47,7 +47,7 @@ button:focus {
 }
 
 .logo-header {
-  color: var(--dark-color) #2e2f42;
+  color: var(--dark-color);
 }
 
 .logo-footer {
@@ -59,7 +59,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark-color) #2e2f42;
+  color: var(--dark-color);
 }
 
 .contacts {
@@ -72,7 +72,7 @@ button:focus {
 /* Main */
 
 .hero {
-  background-color: var(--dark-color) #2e2f42;
+  background-color: var(--dark-color);
 }
 
 .hero-text {
@@ -125,7 +125,7 @@ button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--dark-color) #2e2f42;
+  color: var(--dark-color);
 }
 .works-list {
 }
@@ -143,7 +143,7 @@ button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--dark-color) #2e2f42;
+  color: var(--dark-color);
 }
 .team-list {
 }
