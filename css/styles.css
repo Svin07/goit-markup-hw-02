@@ -54,6 +54,14 @@ button:focus {
   color: #f4f4fd;
 }
 
+.navigation-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color) #2e2f42;
+}
+
 .contacts {
   font-size: 16px;
   font-style: normal;
@@ -66,10 +74,12 @@ button:focus {
 .hero {
   background-color: var(--dark-color) #2e2f42;
 }
+
 .hero-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -112,6 +122,7 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color) #2e2f42;
@@ -157,7 +168,7 @@ button:focus {
 /* FOOTER */
 
 .basement {
-  background-color: var(--hero-background) #2e2f42;
+  background-color: var(--dark-color);
 }
 
 .basement-text {
@@ -170,6 +181,13 @@ button:focus {
 /* Portfolio */
 
 .projects {
+}
+.projects-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
 .filters-list {
 }
@@ -188,18 +206,27 @@ button:focus {
 }
 
 .projects-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
-
 .projects-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color) #2e2f42;
+}
+
+.projects-title {
 }
 
 .portfolio-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text-color) #434455;
 }
