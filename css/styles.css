@@ -8,11 +8,13 @@
   --hero-background: #2e2f42;
   --modal-background: #fcfcfc;
   --logo-color: #4d5ae5;
+  --light-background: #ffffff;
+  --another-background: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--text-color);
+  background-color: var(--light-background);
 }
 
 .list {
@@ -24,15 +26,20 @@ body {
   color: inherit;
 }
 
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
 
 .button:hover,
 button:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--pressed-state-color);
+  color: var(--light-background);
 }
 /* Header*/
 
@@ -51,7 +58,7 @@ button:focus {
 }
 
 .logo-footer {
-  color: #f4f4fd;
+  color: var(--another-background);
 }
 
 .navigation-list {
@@ -67,7 +74,7 @@ button:focus {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color) #434455;
+  color: var(--text-color);
 }
 /* Main */
 
@@ -76,21 +83,20 @@ button:focus {
 }
 
 .hero-text {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--light-background);
 }
 .hero-btn {
-  background-color: #4d5ae5;
+  background-color: var(--logo-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--light-background);
   cursor: pointer;
 }
 .advantages-title {
@@ -119,7 +125,6 @@ button:focus {
 .works {
 }
 .works-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -134,10 +139,9 @@ button:focus {
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--another-background);
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -149,7 +153,7 @@ button:focus {
 }
 
 .team-list-picture {
-  background-color: #ffffff;
+  background-color: var(--light-background);
 }
 .team-list-name {
   font-weight: 500;
@@ -175,7 +179,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--another-background);
 }
 
 /* Portfolio */
@@ -195,13 +199,13 @@ button:focus {
 .filters-item {
 }
 .portfolio-btn {
-  background-color: #f4f4fd;
+  background-color: var(--another-background);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--logo-color);
   cursor: pointer;
 }
 
@@ -217,7 +221,7 @@ button:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--dark-color) #2e2f42;
+  color: var(--dark-color);
 }
 
 .projects-title {
